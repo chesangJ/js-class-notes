@@ -23,7 +23,7 @@ function duplicate(arr){
 
 console.log(duplicate(arr));
 let word="sevink";
-let y= word.split("").sort().join("");
+let y= word.split("").reverse().join("");
 console.log(y)
 
 let arr5=["the", "way","x",4];
@@ -36,6 +36,9 @@ if (arr5.includes(z)){
  else{
     console.log("the search word was not found");
 }
+var arr3 = [-5,9,5,3,2,-3,6,8,4,1];
+var sorted =arr3.sort();
+console.log(sorted)
   
 
  
